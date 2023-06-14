@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Achmed's Guessing Game README</title>
+    <style>
+        body { 
+            background-color: #f5f5f5; 
+            font-family: Arial, sans-serif; 
+            color: #1d353d;
+        }
+        h1, h2, h3 { 
+            color: #007BFF; 
+        }
+        code {
+            color: #c175ff;
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Achmed's Guessing Game README</h1>
+    <h2>Introduction</h2>
+    <p>
+        What's better than a number guessing game? A number guessing game with Achmed! He's our entertaining guide, borrowed from Jeff Dunham's comedy shows. The game is as simple as can be - guess a number between 1 and 100! 
+        We offer three levels of difficulty: easy, medium, and hard. Just to clarify, 'difficulty' here means how many attempts you get to guess the number. And Achmed? He's not just here to guide you, but also to tell you some jokes along the way!
+    </p>
+    
+    <h2>How It Works</h2>
+    <p>
+        Our game kicks off with <code>introduce_achmed()</code>, welcoming our hilarious host. And then we jump right into the fun stuff with the main game loop in the function <code>play_game()</code>. Here's how it rolls:
+    </p>
+    <ul>
+        <li>You pick a difficulty level. Easy, medium, or hard, take your pick. If you enter something else, Achmed will gently remind you to pick a valid level.</li>
+        <li>The game generates a random number between 1 and 100. The magic number, if you may!</li>
+        <li>Based on your difficulty choice, you'll get a certain number of attempts: 10 for easy, 7 for medium, and only 5 for hard. Choose wisely!</li>
+        <li>Start guessing! Or you can quit anytime by entering 'q'. But we know you won't, because where's the fun in that, right?</li>
+        <li>If your guess is lower than the magic number, Achmed will tell you it's "Too low! Keep trying!". If it's higher, you'll hear "Too high! Keep trying!".</li>
+        <li>When you guess the number right, Achmed throws a mini celebration and your score goes up by 1!</li>
+        <li>The game goes on until you run out of attempts or you guess the number. Persistence is key!</li>
+        <li>When your attempts run out, Achmed reveals the number and gives you a chance to replay the game. After all, failure is the first step to success!</li>
+        <li>If you decide not to play again, you'll see your final score, and we bid you farewell with <code>farewell_achmed()</code>.</li>
+    </ul>
+    <p>
+        Also, we have a <code>tell_joke()</code> function for that extra fun. It randomly picks a joke from a list and serves it to you! You can add this function anywhere you find suitable in the <code>play_game()</code> function.
+    </p>
+</body>
+</html>
