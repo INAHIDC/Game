@@ -16,4 +16,4 @@ The cool part? The algorithm's period is enormous—about
 1
 2 
 19937
- −1, which means it can generate that many numbers before the sequence starts repeating. So, each time I use random.randint(a, b), it feels like I'm getting a truly random number
+ −1, which means it can generate that many numbers before the sequence starts repeating. So, each time I use random.randint(a, b), it feels like I'm getting a truly random number.
