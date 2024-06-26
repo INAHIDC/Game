@@ -5,11 +5,11 @@ The Mersenne Twister generates numbers through a series of mathematical steps th
 
 Seeding: It all starts with a seed number, which kicks off the generation process. This seed initializes a state array with values derived from it.
 
-Generating: The core of the Mersenne Twister involves taking bits from the current state, manipulating them with bitwise operations (like XOR, which compares bits and flips them based on certain rules), and producing a new number. These operations help scramble the numbers sufficiently to make the sequence appear random.
+Basically what i understand is the core of the Mersenne Twister involves taking bits from the current state, manipulating them with bitwise operations (like XOR, which compares bits and flips them based on certain rules), and producing a new number. This help scramble the numbers sufficiently to make the sequence appear random.
 
-messing it up a little: To make the output more unpredictable, the numbers go through a tempering process which tweaks the bits further, improving the statistical properties of the numbers thats made.
+messing it up a little: To make the output more unpredictable, the numbers go through a tempering process which tweaks the bits further, improving the statistical properties of the numbers thats generated.
 
-The cool part? The algorithm's period is enormous—about 
+The cool part? The algorithm's period is enormous about 
 2
 19937
 −
